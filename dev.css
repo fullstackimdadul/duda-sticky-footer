@@ -1,0 +1,21 @@
+*#dm .footer-wrapper {
+display: none;
+}
+*#dm .wrapper-row {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 5px;
+background: linear-gradient(180deg, #2F6E6B 0%, #122328 100%);
+}
+@media (max-width: 1024px) {   
+#dm div.dmInner .footer-wrapper {
+display: block;
+position: fixed;
+bottom: 0;
+left: 0;
+width: 100%;
+z-index:999;
+}
+
+}
